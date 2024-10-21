@@ -115,10 +115,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 12
+        width: 29.5
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: knight_roll_1
       rect:
         serializedVersion: 2
-        x: 31
+        x: 29
         y: 0
-        width: 13
-        height: 18
+        width: 29.5
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: knight_roll_2
       rect:
         serializedVersion: 2
-        x: 63
+        x: 58
         y: 0
-        width: 13
-        height: 15
+        width: 29.5
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: knight_roll_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 87
         y: 0
-        width: 15
-        height: 12
+        width: 29.5
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: knight_roll_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 116
         y: 0
-        width: 13
-        height: 14
+        width: 29.5
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: knight_roll_5
       rect:
         serializedVersion: 2
-        x: 158
+        x: 145
         y: 0
-        width: 15
-        height: 11
+        width: 29.5
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: knight_roll_6
       rect:
         serializedVersion: 2
-        x: 191
+        x: 174
         y: 0
-        width: 13
-        height: 15
+        width: 29.5
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: knight_roll_7
       rect:
         serializedVersion: 2
-        x: 223
+        x: 203
         y: 0
-        width: 13
-        height: 17
+        width: 33
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
