@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|c:\\users\\alumta\\proyectout2matiasrojas\\proyecto2dmatiasrojas\\assets\\scripts\\idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|c:\\users\\alumta\\proyectout2matiasrojas\\proyecto2dmatiasrojas\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\Idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,15 +35,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:26:37.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Idle.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\Idle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Idle.cs",
               "ToolTip": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\Idle.cs",
               "RelativeToolTip": "Assets\\Scripts\\Idle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T15:34:20.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:34:20.769Z"
             }
           ]
         }
