@@ -133,10 +133,10 @@ GameObject:
   - component: {fileID: 270650554}
   - component: {fileID: 270650553}
   - component: {fileID: 270650552}
-  - component: {fileID: 270650556}
   - component: {fileID: 270650555}
   - component: {fileID: 270650557}
   - component: {fileID: 270650558}
+  - component: {fileID: 270650559}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -152,7 +152,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270650551}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c3e0173502022064d9678ec7d3b709d6, type: 2}
   m_CullingMode: 0
@@ -203,8 +203,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -551416915
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -222351738, guid: 75939e06230bc354bad1d66b3648face, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -259,41 +259,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &270650556
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270650551}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.8125, y: 1.1875}
-  m_Direction: 0
 --- !u!114 &270650557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +274,7 @@ MonoBehaviour:
   rb: {fileID: 270650555}
   speedMove: 5
   jumpingPower: 0
+  sprtRnd: {fileID: 270650553}
 --- !u!114 &270650558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,17 +314,62 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 3a4c4160-e01d-4abf-88c1-7304ef0145c9
-    m_ActionName: playerMove/movement[/Keyboard/a,/Keyboard/d]
+    m_ActionId: a549556c-db30-4d5b-9e4c-1f6b96396edc
+    m_ActionName: New action map/movement[/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: ae90bfd3-e673-46cb-88b5-8734551d48d7
-    m_ActionName: playerMove/jump[/Keyboard/space]
+    m_ActionId: 4de4c094-54ad-4cb4-b158-48f2d85d7d02
+    m_ActionName: movement/jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard
+  m_DefaultControlScheme: 
   m_DefaultActionMap: playerMove
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!61 &270650559
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270650551}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.06823814, y: -0.05226803}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.046875, y: 2.1875}
+    newSize: {x: 0.8125, y: 1.1875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8697686, y: 1.2172866}
+  m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
