@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 270650557}
   - component: {fileID: 270650558}
   m_Layer: 0
-  m_Name: Knight
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,7 +152,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270650551}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c3e0173502022064d9678ec7d3b709d6, type: 2}
   m_CullingMode: 0
@@ -255,10 +255,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &270650556
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -306,10 +306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8056a26897e692640a216686e5cc7d06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprtRnd: {fileID: 0}
-  rb: {fileID: 0}
-  speedX: 0
-  speedY: 0
+  rb: {fileID: 270650555}
+  speedMove: 5
+  jumpingPower: 0
 --- !u!114 &270650558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,7 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: a0c9700837630c643806567d2e649f32, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -334,10 +333,30 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 270650557}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3a4c4160-e01d-4abf-88c1-7304ef0145c9
+    m_ActionName: playerMove/movement[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ae90bfd3-e673-46cb-88b5-8734551d48d7
+    m_ActionName: playerMove/jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerMove
+  m_DefaultControlScheme: Keyboard
+  m_DefaultActionMap: playerMove
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &519420028

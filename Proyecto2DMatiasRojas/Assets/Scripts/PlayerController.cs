@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public SpriteRenderer sprtRnd;
+    private SpriteRenderer sprtRnd;
     public Rigidbody2D rb;
-    public float speedX;
-    public float speedY;
+    public float speedMove;
+    public float jumpingPower;
+    private float horizontal;
     
 
     // Start is called before the first frame update
@@ -19,15 +21,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(speedX, speedY);
+        rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
+    }
 
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            sprtRnd.flipX = true;
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {   
-            sprtRnd.flipX = false;
-        }
+    public void Move(InputAction.CallbackContext context){
+        horizontal = context.ReadValue<Vector2>().x; 
     }
 }
