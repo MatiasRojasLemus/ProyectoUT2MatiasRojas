@@ -226,10 +226,11 @@ Transform:
   m_GameObject: {fileID: 270650551}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.621, y: -3.169, z: 0}
+  m_LocalPosition: {x: -0.82, y: 5.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1892855767}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &270650555
@@ -272,10 +273,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 270650555}
-  speedMove: 5
-  jumpingPower: 0
   sprtRnd: {fileID: 270650553}
   anim: {fileID: 270650552}
+  GroundCheck: {fileID: 0}
+  speedMove: 5
+  jumpingPower: 0
 --- !u!114 &270650558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +320,19 @@ MonoBehaviour:
     m_ActionId: a549556c-db30-4d5b-9e4c-1f6b96396edc
     m_ActionName: New action map/movement[/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 270650557}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: Jump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 4de4c094-54ad-4cb4-b158-48f2d85d7d02
     m_ActionName: movement/jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
@@ -1985,6 +1999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892855767}
   - component: {fileID: 1892855766}
+  - component: {fileID: 1892855768}
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -2021,10 +2036,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.4715422}
+  m_Offset: {x: -0.07139647, y: 0.4717226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2035,7 +2050,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.057015598}
+  m_Size: {x: 0.688391, y: 0.05665493}
   m_EdgeRadius: 0
 --- !u!4 &1892855767
 Transform:
@@ -2045,13 +2060,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892855765}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.551, y: -4.206, z: -4.477928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07000005, y: -1.037, z: -4.477928}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 270650554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892855768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892855765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b4b357a4835da246a20865e650c2119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2059,4 +2086,3 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1545906562}
   - {fileID: 270650554}
-  - {fileID: 1892855767}

@@ -23,35 +23,39 @@ public class PlayerController : MonoBehaviour
         checkMovement();
     }
 
-    public void checkMovement(){
-        
-        if(Mathf.Abs(horizontal) == 0f){
-            //Si no se mueve
-            anim.SetBool("isRunning",false);
-        }
-        else{
-            //Si se mueve
-            anim.SetBool("isRunning",true);
-        }
+    public void checkMovement()
+    {
 
-        rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
-        
-        if(!isFacingRight && horizontal > 0f){
-            isFacingRight = true;
-            sprtRnd.flipX = false;
+        if (Mathf.Abs(horizontal) == 0f)
+        {
+            //Si no se mueve
+            anim.SetBool("isRunning", false);
         }
-        else if(isFacingRight && horizontal < 0f){
-            isFacingRight = false;
-            sprtRnd.flipX = true;
+        else
+        {
+            //Si se mueve
+            anim.SetBool("isRunning", true);
         }
 
         if (GroundCheck.isGrounded)
         {
-            Debug.Log("En el suelo");
+            rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
+            anim.SetBool("isGrounded", true);
         }
         else
         {
-            Debug.Log("En el aire");
+            anim.SetBool("isGrounded", false);
+        }
+
+        if (!isFacingRight && horizontal > 0f)
+        {
+            isFacingRight = true;
+            sprtRnd.flipX = false;
+        }
+        else if (isFacingRight && horizontal < 0f)
+        {
+            isFacingRight = false;
+            sprtRnd.flipX = true;
         }
     }
 
@@ -59,5 +63,6 @@ public class PlayerController : MonoBehaviour
         horizontal = context.ReadValue<Vector2>().x;
         Debug.Log(horizontal); 
     }
+
 
 }
