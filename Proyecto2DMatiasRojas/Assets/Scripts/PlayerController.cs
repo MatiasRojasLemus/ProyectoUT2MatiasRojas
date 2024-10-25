@@ -5,10 +5,11 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float speedMove;
-    public float jumpingPower;
     public SpriteRenderer sprtRnd;
     public Animator anim;
+    public GroundCheck GroundCheck;
+    public float speedMove;
+    public float jumpingPower;
     private float horizontal;
     private bool isFacingRight = true;
 
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public void checkMovement(){
+        
         if(Mathf.Abs(horizontal) == 0f){
             //Si no se mueve
             anim.SetBool("isRunning",false);
@@ -41,6 +43,15 @@ public class PlayerController : MonoBehaviour
         else if(isFacingRight && horizontal < 0f){
             isFacingRight = false;
             sprtRnd.flipX = true;
+        }
+
+        if (GroundCheck.isGrounded)
+        {
+            Debug.Log("En el suelo");
+        }
+        else
+        {
+            Debug.Log("En el aire");
         }
     }
 
