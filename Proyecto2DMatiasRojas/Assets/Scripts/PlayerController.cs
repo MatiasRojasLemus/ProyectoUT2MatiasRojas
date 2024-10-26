@@ -7,15 +7,17 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public SpriteRenderer sprtRnd;
     public Animator anim;
-    public GroundCheck GroundCheck;
     public float speedMove;
-    public float jumpingPower;
+    public float jumpingHeight;
     private float horizontal;
     private bool isFacingRight = true;
 
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 3f;
+        speedMove = 7f;
+        jumpingHeight = 7f;
     }
 
     void FixedUpdate()
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
     public void checkMovement()
     {
+        rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
+
 
         if (Mathf.Abs(horizontal) == 0f)
         {
@@ -37,15 +41,16 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isRunning", true);
         }
 
+
         if (GroundCheck.isGrounded)
         {
-            rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
             anim.SetBool("isGrounded", true);
         }
         else
         {
             anim.SetBool("isGrounded", false);
         }
+
 
         if (!isFacingRight && horizontal > 0f)
         {
@@ -61,8 +66,11 @@ public class PlayerController : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context){
         horizontal = context.ReadValue<Vector2>().x;
-        Debug.Log(horizontal); 
     }
-
+    public void Jump(InputAction.CallbackContext context){
+        if(GroundCheck.isGrounded){ 
+            rb.AddForce(Vector2.up * jumpingHeight, ForceMode2D.Impulse);
+        }
+    }
 
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4830c4400224f8b45903c5f3ad06d551
+guid: bf02b0acc1467294aa279b6039027c05
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,186 +93,173 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knight_roll_0
+      name: knight_jump 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 29.5
+        x: 9
+        y: 7
+        width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff5a8c7df58b3f47969497d60fb8127
-      internalID: 656140129
+      spriteID: 004ee6b17fb2a9541bf6950fc82ba812
+      internalID: -1043567618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_1
+      name: knight_jump 1_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 0
-        width: 29.5
-        height: 19
+        x: 41
+        y: 7
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 563d94d2bc9941546ae16dd4f57fa567
-      internalID: 496939179
+      spriteID: a77689a208cb7cf4bb5b7914cd8eae82
+      internalID: -365444191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_2
+      name: knight_jump 1_2
       rect:
         serializedVersion: 2
-        x: 58
-        y: 0
-        width: 29.5
-        height: 19
+        x: 73
+        y: 7
+        width: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce1900502cbef64b9a147ab51bcbd2d
-      internalID: 2099000121
+      spriteID: 216ac00e91d650e478aee7bb75a966c2
+      internalID: 459321415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_3
+      name: knight_jump 1_3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 0
-        width: 29.5
-        height: 19
+        x: 106
+        y: 6
+        width: 15
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b1f8118c0f0af4a9de54848c469cda
-      internalID: 453394035
+      spriteID: 2fb69d836139a634b86e4bc02c0411a0
+      internalID: 1501741497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_4
+      name: knight_jump 1_4
       rect:
         serializedVersion: 2
-        x: 116
-        y: 0
-        width: 29.5
-        height: 19
+        x: 138
+        y: 6
+        width: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3568dc105835894baf57e95fe7aa093
-      internalID: -1932180174
+      spriteID: 0acd3ad42b7a827469caa244944d9b53
+      internalID: -1177177211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_5
+      name: knight_jump 1_5
       rect:
         serializedVersion: 2
-        x: 145
-        y: 0
-        width: 29.5
-        height: 19
+        x: 168
+        y: 5
+        width: 15
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 622419965140bb04887d452acf26884c
-      internalID: -1178052809
+      spriteID: 0474a8c7dee86684d89558eba3258981
+      internalID: -1188855090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_6
+      name: knight_jump 1_6
       rect:
         serializedVersion: 2
-        x: 174
-        y: 0
-        width: 29.5
-        height: 19
+        x: 201
+        y: 7
+        width: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe1e319e8b1d35444bef7d3876c96f28
-      internalID: -131740024
+      spriteID: ef4d707467533684394325e882fd5862
+      internalID: -1996207537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight_roll_7
+      name: knight_jump 1_7
       rect:
         serializedVersion: 2
-        x: 203
-        y: 0
-        width: 33
-        height: 19
+        x: 233
+        y: 7
+        width: 13
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab71262cc2b1c8848a34cdde3b5cfdbf
-      internalID: 2081055013
+      spriteID: abec5097c1270ca49bc782729655f36b
+      internalID: -1157695606
       vertices: []
       indices: 
       edges: []
@@ -288,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      knight_roll_0: 656140129
-      knight_roll_1: 496939179
-      knight_roll_2: 2099000121
-      knight_roll_3: 453394035
-      knight_roll_4: -1932180174
-      knight_roll_5: -1178052809
-      knight_roll_6: -131740024
-      knight_roll_7: 2081055013
+      knight_jump 1_0: -1043567618
+      knight_jump 1_1: -365444191
+      knight_jump 1_2: 459321415
+      knight_jump 1_3: 1501741497
+      knight_jump 1_4: -1177177211
+      knight_jump 1_5: -1188855090
+      knight_jump 1_6: -1996207537
+      knight_jump 1_7: -1157695606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
