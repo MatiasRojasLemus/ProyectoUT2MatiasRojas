@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 7971 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51788
+Successfully changed project path to: C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas
+C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16188]  Target information:
+
+Player connection [16188]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2522190601 [EditorId] 2522190601 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OJ53L34I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16188]  * "[IP] 192.168.1.132 [Port] 0 [Flags] 2 [Guid] 2522190601 [EditorId] 2522190601 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OJ53L34I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16188] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16188] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 15.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3985 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006546 seconds.
+- Loaded All Assemblies, in  0.421 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 749ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (330ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.770 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.003 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (754ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (583ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4572 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (130.5 KB). Loaded Objects now: 5042.
+Memory consumption went from 151.1 MB to 151.0 MB.
+Total: 4.152400 ms (FindLiveObjects: 0.298100 ms CreateObjectMapping: 0.140800 ms MarkObjects: 3.582600 ms  DeleteObjects: 0.129700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 682117.135758 seconds.
+  path: Assets/Tile Palettes/Suelo/Bandera2.asset
+  artifactKey: Guid(a2c0d3f56f9b0bb4485308d485fca7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Bandera2.asset using Guid(a2c0d3f56f9b0bb4485308d485fca7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e96f19b13dadadc409b3031c2201d13e') in 0.179695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tile Palettes/Suelo/Escalera_rota.asset
+  artifactKey: Guid(73b2bad60c933634189416c73de29517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Escalera_rota.asset using Guid(73b2bad60c933634189416c73de29517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a87b4724c129678ae88853a5deaf6be') in 0.023032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tile Palettes/Suelo/Hierba3.asset
+  artifactKey: Guid(ea96ff995a133034186ecdfc8051e921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Hierba3.asset using Guid(ea96ff995a133034186ecdfc8051e921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3db7bd02e1ad5b9a3bae2580f3cde16') in 0.022711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tile Palettes/Suelo/Bloque_Piedra3.asset
+  artifactKey: Guid(2660e46d0763ebe42a6e696398ba0e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Bloque_Piedra3.asset using Guid(2660e46d0763ebe42a6e696398ba0e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59664c762c7c053e76abc8d5a6583f4e') in 0.017786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tile Palettes/Suelo/Caja_Madera4.asset
+  artifactKey: Guid(dec979490ccb5554997b6f06a5f1f78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Caja_Madera4.asset using Guid(dec979490ccb5554997b6f06a5f1f78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd69aa51b865a39316e3eb8763cedb40') in 0.007907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tile Palettes/Suelo/Copa_Arbol_Grande.asset
+  artifactKey: Guid(ecdbcf39f374fb84991e21084701b4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Copa_Arbol_Grande.asset using Guid(ecdbcf39f374fb84991e21084701b4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '686731b64943de7d285ac016a474b517') in 0.022209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tile Palettes/Suelo/Entorno.prefab
+  artifactKey: Guid(6849bcbd59fae1043a6f715542a9c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Entorno.prefab using Guid(6849bcbd59fae1043a6f715542a9c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cc5342a9cdcd414553662985c762202f') in 0.124461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tile Palettes/Suelo/Cartel_flecha_Izquierda.asset
+  artifactKey: Guid(f5dbbf13e2e0cc7449e916f3d26f9ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Cartel_flecha_Izquierda.asset using Guid(f5dbbf13e2e0cc7449e916f3d26f9ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3787982591b58a2ea9a857a4a452051a') in 0.021635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile Palettes/Suelo/Boton_Sin_Pulsar.asset
+  artifactKey: Guid(3b9b0f9a5bd9b1143839592ba9e857ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Boton_Sin_Pulsar.asset using Guid(3b9b0f9a5bd9b1143839592ba9e857ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c32d25a2133413ccf6346b4ebd1b9e91') in 0.022278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tile Palettes/Suelo/Cerradura_Dorada.asset
+  artifactKey: Guid(c7b5e7399c4f78c40beb6a1dc48c87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Cerradura_Dorada.asset using Guid(c7b5e7399c4f78c40beb6a1dc48c87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b100d7898406e9a499722b5c997916b') in 0.022605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tile Palettes/Suelo/Hierba2.asset
+  artifactKey: Guid(3843eb8479a5c244f9336ca366b79d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Hierba2.asset using Guid(3843eb8479a5c244f9336ca366b79d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c44290ba6ce697c384942091e431e879') in 0.020580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tile Palettes/Suelo/Escudo.asset
+  artifactKey: Guid(3cc282b6c3ad9664c90e911864c50d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Escudo.asset using Guid(3cc282b6c3ad9664c90e911864c50d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ea73cfb394496f7a45f96971487756fa') in 0.021850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tile Palettes/Suelo/Cartel_flecha_arriba.asset
+  artifactKey: Guid(9f1563c041b12a942aa76c00c3a0e6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/Cartel_flecha_arriba.asset using Guid(9f1563c041b12a942aa76c00c3a0e6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c63fc9dbfabac7830cb4b954c1080e7a') in 0.021727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

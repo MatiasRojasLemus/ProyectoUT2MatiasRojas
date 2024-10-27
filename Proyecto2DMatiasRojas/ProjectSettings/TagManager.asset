@@ -39,9 +39,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Player
     uniqueID: 3743550381
+    locked: 0
+  - name: Fondo
+    uniqueID: 2500513219
+    locked: 0
+  - name: Decoracion
+    uniqueID: 362097641
+    locked: 0
+  - name: Suelo
+    uniqueID: 3309070071
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

@@ -1,0 +1,756 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 7971 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51788
+Successfully changed project path to: C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas
+C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15724]  Target information:
+
+Player connection [15724]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3632212216 [EditorId] 3632212216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OJ53L34I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15724]  * "[IP] 192.168.1.132 [Port] 0 [Flags] 2 [Guid] 3632212216 [EditorId] 3632212216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OJ53L34I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15724] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15724] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 35.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/34654/ProyectoUT2MatiasRojas/Proyecto2DMatiasRojas/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3985 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010633 seconds.
+- Loaded All Assemblies, in  0.556 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 886ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.915 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1874ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (800ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4572 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (130.9 KB). Loaded Objects now: 5042.
+Memory consumption went from 151.2 MB to 151.0 MB.
+Total: 5.018200 ms (FindLiveObjects: 0.561000 ms CreateObjectMapping: 0.675200 ms MarkObjects: 3.583700 ms  DeleteObjects: 0.196800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 681070.818677 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_30.asset
+  artifactKey: Guid(9fe727469f849fa46be33f434517f735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_30.asset using Guid(9fe727469f849fa46be33f434517f735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27d0908e0168e6d82582a928fb049a2b') in 0.064866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009923 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_37.asset
+  artifactKey: Guid(393fc53191031774d9dc1b058353e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_37.asset using Guid(393fc53191031774d9dc1b058353e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'febe8f5f7c75d85fa7fa8a64f49bdca6') in 0.005678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_42.asset
+  artifactKey: Guid(cc20f3bd148793449b8837aea29871cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_42.asset using Guid(cc20f3bd148793449b8837aea29871cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0bf9fe3264b28e95ea1d355c8e85f184') in 0.006449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_41.asset
+  artifactKey: Guid(9eb1044b883524b429171c0895854c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_41.asset using Guid(9eb1044b883524b429171c0895854c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c87b6d977e9ee558161b3c4741ab40ff') in 0.004425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_39.asset
+  artifactKey: Guid(949f0ade15d75d34e82717dd11bde0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_39.asset using Guid(949f0ade15d75d34e82717dd11bde0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8dfdad519eddb0091868c444ac533e8b') in 0.003243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.034047 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_44.asset
+  artifactKey: Guid(bb7252d955717294dbaef9be59f474bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_44.asset using Guid(bb7252d955717294dbaef9be59f474bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '094e4a341a1474b0bd0777df95828fea') in 0.005858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_49.asset
+  artifactKey: Guid(5169b5190ce5cd9469f38b8b082c59d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_49.asset using Guid(5169b5190ce5cd9469f38b8b082c59d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '365a34585094741849c6756791d57547') in 0.005861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_47.asset
+  artifactKey: Guid(350618c6c5c445a449ff625260d19cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_47.asset using Guid(350618c6c5c445a449ff625260d19cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce4a08e65116776fb1c4f85d06e3b74f') in 0.005157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.051553 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_51.asset
+  artifactKey: Guid(78ae4631a2459a74f8a839381a5d4f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_51.asset using Guid(78ae4631a2459a74f8a839381a5d4f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a9e487bd5baabbc0f8834032cd48e53') in 0.004716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_55.asset
+  artifactKey: Guid(8678343f22d184943ae02fcf5b7b08a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_55.asset using Guid(8678343f22d184943ae02fcf5b7b08a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dbc972bf73778f127fcc43b1de6eff7e') in 0.005675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_54.asset
+  artifactKey: Guid(fcc8a967504fb6147bfc971a381d8e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_54.asset using Guid(fcc8a967504fb6147bfc971a381d8e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82ea495355f524ec0eb04ce9b8c0011d') in 0.003879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.420434 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_58.asset
+  artifactKey: Guid(9d946bb7caa228c48888b7d6a8a4ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_58.asset using Guid(9d946bb7caa228c48888b7d6a8a4ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b32905c2533b7b9b4cc5d029967646f6') in 0.005113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_60.asset
+  artifactKey: Guid(6ac132ab7fab2144ca792397a4ea5ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_60.asset using Guid(6ac132ab7fab2144ca792397a4ea5ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5590b734cd7229a2f24cf67659925d7') in 0.004116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_61.asset
+  artifactKey: Guid(a25fa2e0e69395c448127ff397301f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_61.asset using Guid(a25fa2e0e69395c448127ff397301f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2155af35cc1b1e57942e8f892097b6bd') in 0.002976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_62.asset
+  artifactKey: Guid(89345c322eb33b04eaade7a0d5a7e610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_62.asset using Guid(89345c322eb33b04eaade7a0d5a7e610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4e086d497a51e22924e2b68c0917f2b6') in 0.004387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013301 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_65.asset
+  artifactKey: Guid(c4be2147cc18ab64c8cdbd4e94004dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_65.asset using Guid(c4be2147cc18ab64c8cdbd4e94004dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93b9fac357865acb2e5ab06df0056865') in 0.004613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_67.asset
+  artifactKey: Guid(3de04ab46fc104741a64fa618029dbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_67.asset using Guid(3de04ab46fc104741a64fa618029dbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96b473ad0ac233c3748d1289efb29612') in 0.003686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_66.asset
+  artifactKey: Guid(69e0d6c6736557a459153292c452387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_66.asset using Guid(69e0d6c6736557a459153292c452387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54b1fad35d173fabceb62053559d7c38') in 0.003393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_68.asset
+  artifactKey: Guid(fe7fa07d6423bb845be4659ae3dd2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_68.asset using Guid(fe7fa07d6423bb845be4659ae3dd2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'befc514ceeb52a96310c885bd750a18f') in 0.005473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010508 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_72.asset
+  artifactKey: Guid(131eca5298ca5ec47abd425025d9e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_72.asset using Guid(131eca5298ca5ec47abd425025d9e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b789cbaf77bf6be8c252cdb3afa2d9c') in 0.004457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_76.asset
+  artifactKey: Guid(a7bae9f0f49e1f74b9c7be4b8399bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_76.asset using Guid(a7bae9f0f49e1f74b9c7be4b8399bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '329e914fb195267b2df66cd0987ea98c') in 0.003582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_77.asset
+  artifactKey: Guid(1f02f3d5e4f0ff64185fc272abfa340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_77.asset using Guid(1f02f3d5e4f0ff64185fc272abfa340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '186848e901d8ecb92eb8dc425bedd66c') in 0.004732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015929 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_79.asset
+  artifactKey: Guid(b69315719f334764099b27923334d9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_79.asset using Guid(b69315719f334764099b27923334d9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3ec277df5a1b6ad3f61409b88ac479cd') in 0.003962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_84.asset
+  artifactKey: Guid(7405a6fbbf53ad84880b11e4562f0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_84.asset using Guid(7405a6fbbf53ad84880b11e4562f0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9bf99785511cb4e8a54c3ad6f6f1408a') in 0.003966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_81.asset
+  artifactKey: Guid(eb3bf9c1162c76c43811ec7ec60a5465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_81.asset using Guid(eb3bf9c1162c76c43811ec7ec60a5465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f2b2ae53fad0162fd642dac725abacc8') in 0.004994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_82.asset
+  artifactKey: Guid(8977b7d11b34d4d48b915f76f3bb88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_82.asset using Guid(8977b7d11b34d4d48b915f76f3bb88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a956c7232b923a95e9f514004b20efe2') in 0.003886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008319 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_86.asset
+  artifactKey: Guid(3a990453349613b428f395959f46e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_86.asset using Guid(3a990453349613b428f395959f46e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4184379caa6963ed0b5d25ad8b4b97b8') in 0.004060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_92.asset
+  artifactKey: Guid(6eba1b449f037d9488537a08b6465924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_92.asset using Guid(6eba1b449f037d9488537a08b6465924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b9f89391b89574840a2999340c2a6986') in 0.003352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_87.asset
+  artifactKey: Guid(864f7088afd16d84c8947bae63c67231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_87.asset using Guid(864f7088afd16d84c8947bae63c67231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '201bb68ad72a121b988ab5090533d59a') in 0.003289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_104.asset
+  artifactKey: Guid(3203add924032374abe3c50822d4e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_104.asset using Guid(3203add924032374abe3c50822d4e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f757c7aecdf16b7470203ee297154c9') in 0.004464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_99.asset
+  artifactKey: Guid(3ecda62308516ce4ca85b62bf9d9a2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_99.asset using Guid(3ecda62308516ce4ca85b62bf9d9a2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f129118f20d581fa9f24067512339570') in 0.004737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_89.asset
+  artifactKey: Guid(c105b7e084c58224e8fafd9f29577ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_89.asset using Guid(c105b7e084c58224e8fafd9f29577ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5735f1f752a58fb58567f45b7ebf8a32') in 0.004347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_102.asset
+  artifactKey: Guid(b807d6b6b59592b44b24cbe6e6f68cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_102.asset using Guid(b807d6b6b59592b44b24cbe6e6f68cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fcc5d595f85d86d7633b22a2b666c487') in 0.003945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_101.asset
+  artifactKey: Guid(bb685c5290e1b1c488ced77f96323f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_101.asset using Guid(bb685c5290e1b1c488ced77f96323f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0026082e147b06d735ac6b5751cd0de2') in 0.003457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_105.asset
+  artifactKey: Guid(41297a1d2c187984b8c5afdf5bde3837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_105.asset using Guid(41297a1d2c187984b8c5afdf5bde3837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2248e7b46794d9c7a8d08f8396ffe90a') in 0.003807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_95.asset
+  artifactKey: Guid(d71ae308ee3012a44b7daa3a9ba7ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_95.asset using Guid(d71ae308ee3012a44b7daa3a9ba7ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7d61981fb7f834701f81add9940909c1') in 0.002730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_97.asset
+  artifactKey: Guid(69457ced4ccc071438a7d52954e27b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_97.asset using Guid(69457ced4ccc071438a7d52954e27b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '682252c506db19ff23563be10c45a35b') in 0.003446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022437 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_107.asset
+  artifactKey: Guid(96604fef125df3444878ee66d870e3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_107.asset using Guid(96604fef125df3444878ee66d870e3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '365d4bb5325b388bd60b2e4cc0016eb3') in 0.004098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_118.asset
+  artifactKey: Guid(cb1b1ee2c2a7b0a4e9738fb4f2764a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_118.asset using Guid(cb1b1ee2c2a7b0a4e9738fb4f2764a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0ff58ca8493caf2e2bc5b4bf3c4a140') in 0.003911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_119.asset
+  artifactKey: Guid(84b3cc1c48801a64f9a26cbba5382a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_119.asset using Guid(84b3cc1c48801a64f9a26cbba5382a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64eba964a92adc740fc6f8fff9d91e4c') in 0.005442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_113.asset
+  artifactKey: Guid(4d209e2e54f38be42a7ee1f1e68a5e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_113.asset using Guid(4d209e2e54f38be42a7ee1f1e68a5e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dfcd3cd5ec67601051efe72cef26c0d7') in 0.004448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_114.asset
+  artifactKey: Guid(2913f38ae9ca30e4c901bfc069ba6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_114.asset using Guid(2913f38ae9ca30e4c901bfc069ba6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd7496f7f05f273883a6b3dd1f45080fd') in 0.003937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_112.asset
+  artifactKey: Guid(72cac1a1b199a07479e766cd49800ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_112.asset using Guid(72cac1a1b199a07479e766cd49800ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30bc4c7d63c53d4f1e8f847a20660375') in 0.003331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_111.asset
+  artifactKey: Guid(2a7cd62e2fc4ff6438918ab89b0749e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_111.asset using Guid(2a7cd62e2fc4ff6438918ab89b0749e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27736cad73154ac9214f95ddb1724c61') in 0.003569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005897 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_121.asset
+  artifactKey: Guid(5eba0fe932fe8344db85293f4beb3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_121.asset using Guid(5eba0fe932fe8344db85293f4beb3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '903f928ce916f1ff1db898bd877952b0') in 0.004460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_130.asset
+  artifactKey: Guid(2e67d7b2084a31847a572aac2f684d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_130.asset using Guid(2e67d7b2084a31847a572aac2f684d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96ca462bda9ee72405a7ccd72c4e47f1') in 0.004161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_127.asset
+  artifactKey: Guid(9cfe4fd3a1f5d7a4d86083a65d87094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_127.asset using Guid(9cfe4fd3a1f5d7a4d86083a65d87094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a6a1e52c581c2d67c9d609ba78356e18') in 0.004585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_132.asset
+  artifactKey: Guid(44b8e47ffd5578f40af4ee9db4e02b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_132.asset using Guid(44b8e47ffd5578f40af4ee9db4e02b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c542e723831fbcaf1210a9fc4ed02def') in 0.003845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_125.asset
+  artifactKey: Guid(56834311deb5f40449c247e75ab9fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_125.asset using Guid(56834311deb5f40449c247e75ab9fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '84f2e04bf872b77384ff697d16ba34b7') in 0.004512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_124.asset
+  artifactKey: Guid(63655b2d787e1fb49aecda6d5d2fb823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_124.asset using Guid(63655b2d787e1fb49aecda6d5d2fb823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '054ba1d7a097f5cd54d8011eb552f4c2') in 0.002644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_129.asset
+  artifactKey: Guid(1533919fc250fca40a46c9c21f4d1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_129.asset using Guid(1533919fc250fca40a46c9c21f4d1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45197dc39e8bafa71c19493a2b741b9d') in 0.003430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.030325 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_135.asset
+  artifactKey: Guid(2f84d38b955744c4cbbac5b5d8b5d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_135.asset using Guid(2f84d38b955744c4cbbac5b5d8b5d7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6ee60829b8089aceb5eaeb6f5f8942e5') in 0.004356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_139.asset
+  artifactKey: Guid(5fe32a257b7b34746ba4740186066633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_139.asset using Guid(5fe32a257b7b34746ba4740186066633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ce3fd72d9eaf5c3851c891179d36caf') in 0.004878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_140.asset
+  artifactKey: Guid(a0974e28ca2114e44b3dadb153f0e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_140.asset using Guid(a0974e28ca2114e44b3dadb153f0e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e026f6af0fe9585352612921ac71f0c') in 0.005045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_137.asset
+  artifactKey: Guid(b13b82e6aeef634448432f1a4d923c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_137.asset using Guid(b13b82e6aeef634448432f1a4d923c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2c25916af2b454a55db553c34d4b70ba') in 0.004702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009707 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_142.asset
+  artifactKey: Guid(28c62a471300bf342a3606633be0d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_142.asset using Guid(28c62a471300bf342a3606633be0d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d415e2038ecd74db87f16d2f3389175') in 0.003881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_145.asset
+  artifactKey: Guid(57265058de589694a83b57110e8ad2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_145.asset using Guid(57265058de589694a83b57110e8ad2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '322a4629568f7c5b0548b32f96268d22') in 0.004516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_144.asset
+  artifactKey: Guid(c963831dddc641340a7fd2a614a50d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_144.asset using Guid(c963831dddc641340a7fd2a614a50d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33efcc41d0b7086ccd2b2569f8698871') in 0.003839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_146.asset
+  artifactKey: Guid(e8b4eb4042c2c1f4cbaa8854917e203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_146.asset using Guid(e8b4eb4042c2c1f4cbaa8854917e203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a224285b6fb65cf0453f1d6a6e465142') in 0.003439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.013190 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_150.asset
+  artifactKey: Guid(2b3b56f0f7beecb48ab046c887af4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_150.asset using Guid(2b3b56f0f7beecb48ab046c887af4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fefe06a16ad6322da01d00b1384653c8') in 0.006604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_153.asset
+  artifactKey: Guid(e6a6f7248717b9544bf69b404cc6a0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_153.asset using Guid(e6a6f7248717b9544bf69b404cc6a0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '79ad65b71b2e02f4dd3de63fc64894e5') in 0.004775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_151.asset
+  artifactKey: Guid(9c242e1a82c64dc4197371882d41756e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_151.asset using Guid(9c242e1a82c64dc4197371882d41756e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4cd05529363976edfcf26643c803bfdc') in 0.003815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.050363 seconds.
+  path: Assets/Tile Palettes/Suelo/tilemap_packed_157.asset
+  artifactKey: Guid(8f0744f6906c9b9499df49e8fcb12b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/Suelo/tilemap_packed_157.asset using Guid(8f0744f6906c9b9499df49e8fcb12b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d972b76add54846f9ffcff045b4397a') in 0.005063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
