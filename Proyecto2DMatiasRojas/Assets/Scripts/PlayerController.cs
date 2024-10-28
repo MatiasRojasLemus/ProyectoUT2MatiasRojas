@@ -1,4 +1,4 @@
-using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,10 +11,12 @@ public class PlayerController : MonoBehaviour
     public float jumpingHeight;
     private float horizontal;
     private bool isFacingRight = true;
+    public Transform transPlayer;
+    public GameObject swordPrefab;
+    public Vector2 direccionSword;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 3f;
         speedMove = 7f;
         jumpingHeight = 7f;
@@ -69,8 +71,23 @@ public class PlayerController : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext context){
         if(GroundCheck.isGrounded){ 
-            rb.AddForce(Vector2.up * jumpingHeight, ForceMode2D.Impulse);
+            rb.AddForce(Vector3.up * jumpingHeight, ForceMode2D.Impulse);
         }
     }
 
+    public void Attack(InputAction.CallbackContext context){
+        //Debug.Log("Atacando");
+        GameObject sword = Instantiate(swordPrefab,transPlayer.position,Quaternion.identity);
+        
+        if(sprtRnd.flipX){
+            direccionSword = Vector2.left;
+        }
+        else{
+            direccionSword = Vector2.right;
+            sword.GetComponent<SpriteRenderer>().flipX = true;
+        }
+
+        sword.GetComponent<swordController>().setDirection(direccionSword);
+        
+    }
 }

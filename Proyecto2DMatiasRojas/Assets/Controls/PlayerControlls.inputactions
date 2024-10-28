@@ -2,11 +2,11 @@
     "name": "PlayerControlls",
     "maps": [
         {
-            "name": "playerMove",
+            "name": "playerMoveset",
             "id": "a61ad5b2-e724-4605-9fa2-f6d08ad74c6e",
             "actions": [
                 {
-                    "name": "movement",
+                    "name": "move",
                     "type": "Value",
                     "id": "a549556c-db30-4d5b-9e4c-1f6b96396edc",
                     "expectedControlType": "Vector2",
@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "attack",
+                    "type": "Button",
+                    "id": "47cad73f-d225-43a7-92f3-90c6a714e4f4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -32,7 +41,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "move",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -43,7 +52,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "movement",
+                    "action": "move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -54,7 +63,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "movement",
+                    "action": "move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -65,7 +74,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "movement",
+                    "action": "move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -76,7 +85,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "movement",
+                    "action": "move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -88,6 +97,17 @@
                     "processors": "",
                     "groups": "Keyboard",
                     "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a456f771-a33e-43c3-8944-7b371e896d92",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
