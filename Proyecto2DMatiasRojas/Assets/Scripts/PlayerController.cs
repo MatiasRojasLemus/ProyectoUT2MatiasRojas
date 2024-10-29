@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     private float timeWhenLastAttack;
 
+    public InputAction.CallbackContext context;
+
     void Start()
     {
         rb.gravityScale = 3f;
@@ -29,7 +31,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         checkMovement();
-
     }
 
     public void checkMovement()
