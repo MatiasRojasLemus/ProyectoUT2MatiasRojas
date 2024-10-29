@@ -98,4 +98,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transSword: {fileID: 5141785671954937786}
-  speedSword: 5
+  speedSword: 12

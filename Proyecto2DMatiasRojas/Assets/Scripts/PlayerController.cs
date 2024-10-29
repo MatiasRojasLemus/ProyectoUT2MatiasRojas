@@ -7,13 +7,17 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public SpriteRenderer sprtRnd;
     public Animator anim;
-    public float speedMove;
-    public float jumpingHeight;
-    private float horizontal;
-    private bool isFacingRight = true;
     public Transform transPlayer;
     public GameObject swordPrefab;
+
     public Vector2 direccionSword;
+    public float speedMove;
+    public float jumpingHeight;
+    public float cooldownAttack;
+
+    private float horizontal;
+    private bool isFacingRight = true;
+    private float timeWhenLastAttack;
 
     void Start()
     {
@@ -25,6 +29,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         checkMovement();
+
     }
 
     public void checkMovement()
@@ -69,6 +74,7 @@ public class PlayerController : MonoBehaviour
     public void Move(InputAction.CallbackContext context){
         horizontal = context.ReadValue<Vector2>().x;
     }
+
     public void Jump(InputAction.CallbackContext context){
         if(GroundCheck.isGrounded){ 
             rb.AddForce(Vector3.up * jumpingHeight, ForceMode2D.Impulse);
@@ -76,7 +82,11 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Attack(InputAction.CallbackContext context){
-        //Debug.Log("Atacando");
+        if (Time.time < timeWhenLastAttack + cooldownAttack)
+        {
+            return;
+        }
+        
         GameObject sword = Instantiate(swordPrefab,transPlayer.position,Quaternion.identity);
         
         if(sprtRnd.flipX){
@@ -87,7 +97,9 @@ public class PlayerController : MonoBehaviour
             sword.GetComponent<SpriteRenderer>().flipX = true;
         }
 
-        sword.GetComponent<swordController>().setDirection(direccionSword);
-        
+        sword.GetComponent<swordController>().setDirectionSword(direccionSword);
+
+        timeWhenLastAttack = Time.time;
+       
     }
 }

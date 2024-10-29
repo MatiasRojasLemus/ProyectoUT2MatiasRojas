@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 270650559}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,11 +359,12 @@ MonoBehaviour:
   rb: {fileID: 270650555}
   sprtRnd: {fileID: 270650553}
   anim: {fileID: 270650552}
-  speedMove: 7
-  jumpingHeight: 5
   transPlayer: {fileID: 270650554}
   swordPrefab: {fileID: 3240466523630576930, guid: 2a45080b1171e864cbbf588e8787736a, type: 3}
   direccionSword: {x: 0, y: 0}
+  speedMove: 7
+  jumpingHeight: 5
+  cooldownAttack: 0
 --- !u!114 &270650558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,7 +659,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.567748, y: -8.836372, z: -9.874542}
+  m_LocalPosition: {x: 13.221162, y: -8.836372, z: -9.874542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7369,7 +7370,7 @@ Transform:
   m_GameObject: {fileID: 1843511293}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.567748, y: -8.836372, z: -9.874542}
+  m_LocalPosition: {x: 13.221162, y: -8.836372, z: -9.874542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
