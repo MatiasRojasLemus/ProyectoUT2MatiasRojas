@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|c:\\users\\alumta\\proyectout2matiasrojas\\proyecto2dmatiasrojas\\assets\\scripts\\swordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|c:\\users\\alumta\\proyectout2matiasrojas\\proyecto2dmatiasrojas\\assets\\scripts\\swordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "swordController.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\swordController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\swordController.cs",
               "ToolTip": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\swordController.cs",
               "RelativeToolTip": "Assets\\Scripts\\swordController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T19:17:57.142Z",
               "IsPinned": true,
@@ -40,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowFoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowFkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T14:26:37.822Z",
               "EditorCaption": ""

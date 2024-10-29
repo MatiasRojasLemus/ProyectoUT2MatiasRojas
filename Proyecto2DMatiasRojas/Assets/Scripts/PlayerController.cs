@@ -13,8 +13,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 direccionSword;
     public float speedMove;
     public float jumpingHeight;
-    public float cooldownAttack;
-
+    
+    private float cooldownAttack = 0.2f;
     private float horizontal;
     private bool isFacingRight = true;
     private float timeWhenLastAttack;
