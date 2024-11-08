@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|c:\\users\\alumta\\proyectout2matiasrojas\\proyecto2dmatiasrojas\\assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|c:\\users\\alumta\\proyectout2matiasrojas\\proyecto2dmatiasrojas\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\swordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C46CA10-8CEE-96AD-23AE-E58169847F6C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "swordController.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\swordController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\swordController.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "coin.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\coin.cs",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -64,20 +64,20 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwCAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:26:37.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T14:26:37.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GroundCheck.cs",
               "DocumentMoniker": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\GroundCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundCheck.cs",
               "ToolTip": "C:\\Users\\AlumTA\\ProyectoUT2MatiasRojas\\Proyecto2DMatiasRojas\\Assets\\Scripts\\GroundCheck.cs",
               "RelativeToolTip": "Assets\\Scripts\\GroundCheck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:16:53.61Z"
+              "WhenOpened": "2024-10-25T18:16:53.61Z",
+              "EditorCaption": ""
             }
           ]
         }
