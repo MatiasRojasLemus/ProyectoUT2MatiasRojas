@@ -7,15 +7,7 @@ public class GroundCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Suelo")
-        {
-            isGrounded = true;
-        }
-        else
-        {
-            isGrounded = false;
-        }
-        
+        isGrounded = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)

@@ -6,7 +6,7 @@ public class swordController : MonoBehaviour
     public float speedSword = 12f;
     private Vector2 arrowDirection;
     private float currentTimeAlive = 0f;
-    private float lifeSword = 2f;
+    private float lifeSword = 3f;
 
     // Start is called before the first frame update
     void Start()

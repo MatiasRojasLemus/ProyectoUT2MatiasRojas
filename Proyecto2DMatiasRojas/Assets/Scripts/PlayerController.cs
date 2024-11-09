@@ -13,43 +13,30 @@ public class PlayerController : MonoBehaviour
     public Vector2 direccionSword;
     public float speedMove;
     public float jumpingHeight;
-    
-    private float cooldownAttack = 0.2f;
-    private float horizontal;
-    private bool isFacingRight = true;
+    private float cooldownAttack = 0.25f;
+    private bool isFacingRight;
     private float timeWhenLastAttack;
-
-    public InputAction.CallbackContext context;
 
     void Start()
     {
-        rb.gravityScale = 3f;
+        rb.gravityScale = 1f;
         speedMove = 7f;
         jumpingHeight = 7f;
     }
 
     void FixedUpdate()
     {
-        checkMovement();
+        CheckMovement();
     }
 
-    public void checkMovement()
-    {
-        rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
 
-
-        if (Mathf.Abs(horizontal) == 0f)
-        {
-            //Si no se mueve
-            anim.SetBool("isRunning", false);
-        }
-        else
-        {
-            //Si se mueve
-            anim.SetBool("isRunning", true);
-        }
-
-
+    public void CheckMovement(){
+        CheckingGround();
+        Move();
+        Attack();
+    }
+    
+    public void CheckingGround(){
         if (GroundCheck.isGrounded)
         {
             anim.SetBool("isGrounded", true);
@@ -58,49 +45,55 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isGrounded", false);
         }
+    }
 
-
-        if (!isFacingRight && horizontal > 0f)
+    public void Move(){
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             isFacingRight = true;
             sprtRnd.flipX = false;
+            anim.SetBool("isRunning", true);
+            rb.velocity = new Vector2(speedMove, rb.velocity.y);
         }
-        else if (isFacingRight && horizontal < 0f)
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             isFacingRight = false;
             sprtRnd.flipX = true;
+            anim.SetBool("isRunning", true);
+            rb.velocity = new Vector2(-speedMove, rb.velocity.y);
         }
-    }
+        else{
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            anim.SetBool("isRunning", false);
+        }
 
-    public void Move(InputAction.CallbackContext context){
-        horizontal = context.ReadValue<Vector2>().x;
-    }
-
-    public void Jump(InputAction.CallbackContext context){
-        if(GroundCheck.isGrounded){ 
+        if(Input.GetKey(KeyCode.Space) && GroundCheck.isGrounded){ 
             rb.AddForce(Vector3.up * jumpingHeight, ForceMode2D.Impulse);
         }
     }
 
-    public void Attack(InputAction.CallbackContext context){
-        if (Time.time < timeWhenLastAttack + cooldownAttack)
-        {
-            return;
-        }
-        
-        GameObject sword = Instantiate(swordPrefab,transPlayer.position,Quaternion.identity);
-        
-        if(sprtRnd.flipX){
-            direccionSword = Vector2.left;
-        }
-        else{
-            direccionSword = Vector2.right;
-            sword.GetComponent<SpriteRenderer>().flipX = true;
-        }
 
-        sword.GetComponent<swordController>().setDirectionSword(direccionSword);
+    public void Attack(){
+        if(Input.GetKey(KeyCode.X)){
+            if (Time.time < timeWhenLastAttack + cooldownAttack)
+            {
+                return;
+            }
+            
+            GameObject sword = Instantiate(swordPrefab,transPlayer.position,Quaternion.identity);
+            
+            if(sprtRnd.flipX){
+                direccionSword = Vector2.left;
+            }
+            else{
+                direccionSword = Vector2.right;
+                sword.GetComponent<SpriteRenderer>().flipX = true;
+            }
 
-        timeWhenLastAttack = Time.time;
+            sword.GetComponent<swordController>().setDirectionSword(direccionSword);
+
+            timeWhenLastAttack = Time.time;
+        }
        
     }
 }
