@@ -9,6 +9,7 @@ TagManager:
   - Suelo
   - Enemy
   - Coin
+  - CheckPoint
   layers:
   - Default
   - TransparentFX

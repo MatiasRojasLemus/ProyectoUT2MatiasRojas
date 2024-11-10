@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 direccionSword;
     public float speedMove;
     public float jumpingHeight;
-    private float cooldownAttack = 0.3f;
+    private float cooldownAttack = 0.2f;
     private bool isFacingRight = false;
     private float timeWhenLastAttack;
 
@@ -21,10 +20,13 @@ public class PlayerController : MonoBehaviour
     private float timeWhenLastHit;
     private float lifes = 5f;
     private float hitAnimationTime = 0.333f;
-    private float invulnerabilityWhenHit = 120f;
-    private float recoil = 20f;
     private bool isDead = false;
     private float deadAnimationTime = 1.517f;
+
+    //CheckPoint
+    private float posicionX;
+    private float posicionY;
+    private float posicionZ;
 
     void Start()
     {
@@ -36,17 +38,20 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         CheckMovement();
-        AfterHit();
+        Reset();
     }
 
 
-    public void CheckMovement(){
-        CheckingGround();
-        Move();
-        Attack();
+    private void CheckMovement(){
+        if(!isDead){
+            CheckingGround();
+            Move();
+            Attack();
+            AfterHit();
+        }
     }
     
-    public void CheckingGround(){
+    private void CheckingGround(){
         if (GroundCheck.isGrounded)
         {
             anim.SetBool("isGrounded", true);
@@ -57,7 +62,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Move(){
+    private void Move(){
         if (Input.GetKey(KeyCode.RightArrow))
         {
             isFacingRight = true;
@@ -83,7 +88,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    public void Attack(){
+    private void Attack(){
         if(Input.GetKey(KeyCode.X)){
             if (Time.time < timeWhenLastAttack + cooldownAttack)
             {
@@ -107,42 +112,58 @@ public class PlayerController : MonoBehaviour
     }
 
     public void OnTriggerEnter2D(Collider2D collision){
-        if(collision.gameObject.tag == "Enemy" && Time.time < timeWhenLastHit + invulnerabilityWhenHit){
+        //Si entra en contacto con un enemigo
+        if(collision.gameObject.tag == "Enemy"){
             getHit();
         }
+        // Si entra en contacto con un Checkpoint, guarda la posición con la que ha entrado a dicho checkpoint
+        else if(collision.gameObject.tag == "CheckPoint"){
+            posicionX = transPlayer.position.x;
+            posicionY = transPlayer.position.y;
+            posicionZ = transPlayer.position.z;
+        }
     }
+    
 
-    public void getHit(){
-        lifes--;
+    private void getHit(){
+        Debug.Log("Golpe");
         anim.SetBool("gotHit",true);
+        lifes--;
 
         if(lifes == 0){
-            isDead = true;
-            anim.SetBool("isDead",true);
-            return;
+            setDeathState(true);
+            timeWhenLastHit = Time.time;
         }
-
-        if(isFacingRight){
-            rb.AddForce(Vector3.left * recoil, ForceMode2D.Impulse);
-        }
-        else{
-            rb.AddForce(Vector3.right * recoil, ForceMode2D.Impulse);        
-        }
-
-        timeWhenLastHit = Time.deltaTime;
+        
+        timeWhenLastHit = Time.time;
     }
 
-    public void AfterHit(){
+    private void AfterHit(){
         if(Time.time > timeWhenLastHit + hitAnimationTime){
             anim.SetBool("gotHit",false);
         }
     }
 
-    public void Reset(){
-        if(isDead){
-            if(Time.time > timeWhenLastHit + deadAnimationTime){
-                
-            }
+    private void Reset(){
+        if(isDead && Time.time > timeWhenLastHit + deadAnimationTime){
+            ResetPosition();
+            ResetLifes();
+            anim.SetBool("gotHit",false);
+            setDeathState(false);
         }
+    }
+
+
+    private void ResetPosition(){
+        transform.position = new Vector3(posicionX,posicionY,posicionZ);
+    }
+
+    private void ResetLifes(){
+        lifes = 5;
+    }
+
+    private void setDeathState(bool isDeadAux){
+        isDead = isDeadAux;
+        anim.SetBool("isDead",isDeadAux);
     }
 }

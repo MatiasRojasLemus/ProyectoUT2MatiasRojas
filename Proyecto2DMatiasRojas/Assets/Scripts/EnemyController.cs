@@ -8,12 +8,18 @@ public class EnemyController : MonoBehaviour
     private Transform playerTransform;
     private Transform enemyTransform;
     private Animator animEnemy;
+
+
+
     private float timeWhenLastHit;
     private float timeWhenDead;
     private float health = 10f;
     private float transitionTime = 0.1f;
     public static bool gotHit = false;
     public static bool isDead = false;
+
+
+    private float margin = 0.75f;
     
     
     // Start is called before the first frame update
@@ -36,11 +42,11 @@ public class EnemyController : MonoBehaviour
 
     public void FindingPlayer(){
         if(EnemyCheckPlayer.playerFound){
-            if(enemyTransform.position.x < playerTransform.position.x){
+            if(enemyTransform.position.x < playerTransform.position.x - margin){
                 sprtRnd.flipX = false;
                 rb2D.velocity = new Vector2(speedMove, rb2D.velocity.y);
             }
-            else if(enemyTransform.position.x > playerTransform.position.x){
+            else if(enemyTransform.position.x > playerTransform.position.x + margin){
                 sprtRnd.flipX = true;
                 rb2D.velocity = new Vector2(-speedMove, rb2D.velocity.y);
             }
