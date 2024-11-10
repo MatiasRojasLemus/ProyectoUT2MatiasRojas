@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public Animator anim;
     public Transform transPlayer;
     public GameObject swordPrefab;
+    public AudioSource audioHurt;
+    public AudioSource audioJump;
 
     public Vector2 direccionSword;
     public float speedMove;
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour
         rb.gravityScale = 1f;
         speedMove = 10f;
         jumpingHeight = 8f;
+        audioHurt.GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -82,7 +85,8 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isRunning", false);
         }
 
-        if(Input.GetKey(KeyCode.Space) && GroundCheck.isGrounded){ 
+        if(Input.GetKey(KeyCode.Space) && GroundCheck.isGrounded){
+            audioJump.Play();
             rb.AddForce(Vector3.up * jumpingHeight, ForceMode2D.Impulse);
         }
     }
@@ -111,10 +115,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //Interacciones del personaje con la escena
     public void OnTriggerEnter2D(Collider2D collision){
         //Si entra en contacto con un enemigo
-        if(collision.gameObject.tag == "Enemy"){
-            getHit();
+        if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Pincho"){
+            audioHurt.Play();
+            getHit(1);
         }
         // Si entra en contacto con un Checkpoint, guarda la posición con la que ha entrado a dicho checkpoint
         else if(collision.gameObject.tag == "CheckPoint"){
@@ -122,15 +128,22 @@ public class PlayerController : MonoBehaviour
             posicionY = transPlayer.position.y;
             posicionZ = transPlayer.position.z;
         }
+        else if(collision.gameObject.tag == "EnemyPurple"){
+            audioHurt.Play();
+            getHit(1);
+        }
+        else if(collision.gameObject.tag == "PinchoMortal"){
+            audioHurt.Play();
+            getHit(10);
+        }
     }
     
 
-    private void getHit(){
-        Debug.Log("Golpe");
+    private void getHit(float vidaPerdida){
         anim.SetBool("gotHit",true);
-        lifes--;
+        lifes -= vidaPerdida;
 
-        if(lifes == 0){
+        if(lifes <= 0){
             setDeathState(true);
             timeWhenLastHit = Time.time;
         }

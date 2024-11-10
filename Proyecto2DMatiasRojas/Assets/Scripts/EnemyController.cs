@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     private Transform playerTransform;
     private Transform enemyTransform;
     private Animator animEnemy;
+    public AudioSource audioExplosion;
 
 
 
@@ -17,6 +18,7 @@ public class EnemyController : MonoBehaviour
     private float transitionTime = 0.1f;
     public static bool gotHit = false;
     public static bool isDead = false;
+    
 
 
     private float margin = 0.75f;
@@ -60,6 +62,7 @@ public class EnemyController : MonoBehaviour
     public void GettingHit(){
         if(isDead){
             if(Time.time < timeWhenDead + transitionTime){
+                audioExplosion.Play();
                 return;
             }
             Object.Destroy(gameObject);

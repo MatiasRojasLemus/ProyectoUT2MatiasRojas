@@ -10,6 +10,10 @@ TagManager:
   - Enemy
   - Coin
   - CheckPoint
+  - PinchoMortal
+  - Pincho
+  - EnemyPurple
+  - TransicionEscena
   layers:
   - Default
   - TransparentFX
@@ -58,4 +62,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Trampa
+    uniqueID: 4211066877
     locked: 0
