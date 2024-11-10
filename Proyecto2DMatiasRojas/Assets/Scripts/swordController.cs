@@ -42,6 +42,13 @@ public class swordController : MonoBehaviour
 
     }
 
+    public void OnTriggerEnter2D(Collider2D collider){
+        if(collider.gameObject.tag == "Enemy"){
+            EnemyController.gotHit = true;
+            Object.Destroy(gameObject);
+        }
+    }
+    
     public void setDirectionSword(Vector2 direccion){
         arrowDirection = direccion;
     }

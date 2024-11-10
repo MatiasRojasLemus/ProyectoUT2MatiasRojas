@@ -1,6 +1,5 @@
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,20 +12,31 @@ public class PlayerController : MonoBehaviour
     public Vector2 direccionSword;
     public float speedMove;
     public float jumpingHeight;
-    private float cooldownAttack = 0.25f;
-    private bool isFacingRight;
+    private float cooldownAttack = 0.3f;
+    private bool isFacingRight = false;
     private float timeWhenLastAttack;
+
+
+    //ATRIBUTOS CON RESPECTO AL JUGADOR RECIBIENDO DAÑO
+    private float timeWhenLastHit;
+    private float lifes = 5f;
+    private float hitAnimationTime = 0.333f;
+    private float invulnerabilityWhenHit = 120f;
+    private float recoil = 20f;
+    private bool isDead = false;
+    private float deadAnimationTime = 1.517f;
 
     void Start()
     {
         rb.gravityScale = 1f;
-        speedMove = 7f;
-        jumpingHeight = 7f;
+        speedMove = 10f;
+        jumpingHeight = 8f;
     }
 
     void FixedUpdate()
     {
         CheckMovement();
+        AfterHit();
     }
 
 
@@ -94,6 +104,45 @@ public class PlayerController : MonoBehaviour
 
             timeWhenLastAttack = Time.time;
         }
-       
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision){
+        if(collision.gameObject.tag == "Enemy" && Time.time < timeWhenLastHit + invulnerabilityWhenHit){
+            getHit();
+        }
+    }
+
+    public void getHit(){
+        lifes--;
+        anim.SetBool("gotHit",true);
+
+        if(lifes == 0){
+            isDead = true;
+            anim.SetBool("isDead",true);
+            return;
+        }
+
+        if(isFacingRight){
+            rb.AddForce(Vector3.left * recoil, ForceMode2D.Impulse);
+        }
+        else{
+            rb.AddForce(Vector3.right * recoil, ForceMode2D.Impulse);        
+        }
+
+        timeWhenLastHit = Time.deltaTime;
+    }
+
+    public void AfterHit(){
+        if(Time.time > timeWhenLastHit + hitAnimationTime){
+            anim.SetBool("gotHit",false);
+        }
+    }
+
+    public void Reset(){
+        if(isDead){
+            if(Time.time > timeWhenLastHit + deadAnimationTime){
+                
+            }
+        }
     }
 }
