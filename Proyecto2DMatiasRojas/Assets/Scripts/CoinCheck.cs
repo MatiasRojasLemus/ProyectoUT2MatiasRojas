@@ -22,7 +22,7 @@ public class CoinCheck : MonoBehaviour
     }
 
     public void Espera(){
-        if(Time.time < timeWhenTouched + timeAudio){
+        if(Time.time > timeWhenTouched + timeAudio){
             Object.Destroy(gameObject);
         }
     }
