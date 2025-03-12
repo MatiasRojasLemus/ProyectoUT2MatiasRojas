@@ -18,11 +18,12 @@ public class CoinCheck : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             timeWhenTouched = Time.time;
+            audioMonedaRecogida.Play();
         }
     }
 
     public void Espera(){
-        if(Time.time > timeWhenTouched + timeAudio){
+        if(timeWhenTouched > 0 && Time.time < timeWhenTouched + timeAudio){
             Object.Destroy(gameObject);
         }
     }
