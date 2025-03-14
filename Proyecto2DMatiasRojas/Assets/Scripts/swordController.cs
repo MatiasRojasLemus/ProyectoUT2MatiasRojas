@@ -1,55 +1,51 @@
 using UnityEngine;
 
-public class swordController : MonoBehaviour
+//Codigo que define el comportamiento de los proyectiles que lanza el Player.
+public class SwordController : MonoBehaviour
 {
     public Transform transSword;
     public float speedSword = 12f;
     private Vector2 arrowDirection;
     private float currentTimeAlive = 0f;
-    private float lifeSword = 3f;
+    private const float lifeSword = 3f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
-        movementSword();
+        MovementSword();
     }
 
-    private void movementSword()
+    /* MovementSword: Define la velocidad del proyectil, el aspecto de su sprite
+    y su tiempo de vida restante en la escena.*/
+    private void MovementSword()
     {
-        transSword.Translate(arrowDirection * speedSword * Time.fixedDeltaTime);
+        transSword.Translate(speedSword * Time.fixedDeltaTime * arrowDirection);
 
-        if (arrowDirection == Vector2.right)
-        {
+        //Ajusta el aspecto del sprite en base a la direccion a la que vaya dirigido el proyectil.
+        if (arrowDirection == Vector2.right){
             GetComponent<SpriteRenderer>().flipX = false;
         }
-        else
-        {
+        else{
             GetComponent<SpriteRenderer>().flipX = true;
         }
 
         currentTimeAlive += Time.fixedDeltaTime;
 
-        if (currentTimeAlive >= lifeSword)
-        {
+        if (currentTimeAlive >= lifeSword){
             Object.Destroy(gameObject);
         }
 
     }
 
+    //OnTriggerEnter2D: Hace desaparecer el proyectil de la escena si entra en contacto con el enemigo o el escenario.
     public void OnTriggerEnter2D(Collider2D collider){
-        if(collider.gameObject.tag == "Enemy"){
+        if(collider.gameObject.CompareTag("Enemy") || collider.gameObject.CompareTag("Suelo")){
             EnemyController.gotHit = true;
             Object.Destroy(gameObject);
         }
     }
     
-    public void setDirectionSword(Vector2 direccion){
+    //Define la direccion a la que se va a lanzar el proyectil dependiendo de la direccion a la que apunte el player.
+    public void SetDirectionSword(Vector2 direccion){
         arrowDirection = direccion;
     }
 

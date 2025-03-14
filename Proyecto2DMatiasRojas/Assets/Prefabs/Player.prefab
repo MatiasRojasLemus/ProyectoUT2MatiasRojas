@@ -103,9 +103,9 @@ GameObject:
   - component: {fileID: 5665498092843199138}
   - component: {fileID: 4836212931237952129}
   - component: {fileID: 1232595349418057995}
-  - component: {fileID: 4548416679805767439}
   - component: {fileID: 7164426803598920103}
   - component: {fileID: 5895794935743811523}
+  - component: {fileID: 4548416679805767439}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -274,28 +274,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4548416679805767439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6007873740078277793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8056a26897e692640a216686e5cc7d06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 5665498092843199138}
-  sprtRnd: {fileID: 8652832500530056351}
-  anim: {fileID: 1232595349418057995}
-  transPlayer: {fileID: 3751422224556265417}
-  swordPrefab: {fileID: 3240466523630576930, guid: 2a45080b1171e864cbbf588e8787736a, type: 3}
-  audioHurt: {fileID: 7164426803598920103}
-  audioJump: {fileID: 5895794935743811523}
-  direccionSword: {x: 0, y: 0}
-  speedMove: 7
-  jumpingHeight: 5
 --- !u!82 &7164426803598920103
 AudioSource:
   m_ObjectHideFlags: 0
@@ -488,3 +466,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4548416679805767439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007873740078277793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8056a26897e692640a216686e5cc7d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 5665498092843199138}
+  sprtRnd: {fileID: 8652832500530056351}
+  anim: {fileID: 1232595349418057995}
+  transPlayer: {fileID: 3751422224556265417}
+  swordPrefab: {fileID: 3240466523630576930, guid: 2a45080b1171e864cbbf588e8787736a, type: 3}
+  audioHurt: {fileID: 7164426803598920103}
+  audioJump: {fileID: 5895794935743811523}
+  direccionSword: {x: 0, y: 0}
+  speedMove: 7
+  jumpingHeight: 5

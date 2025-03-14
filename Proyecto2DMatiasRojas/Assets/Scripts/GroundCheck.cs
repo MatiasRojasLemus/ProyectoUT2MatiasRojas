@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+//Codigo utilizado para detectar el contacto con el suelo del Player.
 public class GroundCheck : MonoBehaviour
 {
     public static bool isGrounded;
