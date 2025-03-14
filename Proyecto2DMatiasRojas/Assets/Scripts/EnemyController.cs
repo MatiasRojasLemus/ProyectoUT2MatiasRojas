@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
     
 
 
-    private float margin = 0.75f;
+    private float margin = 0.5f;
     
     
     // Start is called before the first frame update
